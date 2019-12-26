@@ -11,18 +11,7 @@ extern "C" {
 		Apple apple;
 	};
 
-	struct clsApple* pApple = (struct clsApple*)malloc(sizeof(struct clsApple));
-
-	//struct clsApple* GetInstance(void)
-	//{
-	//	return new struct clsApple;
-	//}
-
-	//void ReleaseInstance(struct clsApple** ppInstance)
-	//{
-	//	delete* ppInstance;
-	//	*ppInstance = 0;
-	//}
+	struct clsApple pApple;
 
 	void clsAppleExe(struct clsApple* pApple)
 	{

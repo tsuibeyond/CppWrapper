@@ -4,6 +4,6 @@
 int main(void)
 {
 	printf("hello world\n");
-	clsAppleExe(pApple);
+	clsAppleExe(&pApple);
 	return 0;
 }

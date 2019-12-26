@@ -7,10 +7,8 @@ struct classWrapper;
 extern "C" {
 #endif
 
-	extern struct clsApple* pApple;
-	//struct classWrapper* GetInstance(void);
-	//void ReleaseInstance(struct classWrapper** ppInstance);
-	extern void clsAppleExe(struct clsApple* pApple);
+extern struct clsApple pApple;
+extern void clsAppleExe(struct clsApple* pApple);
 
 #ifdef __cplusplus
 };
